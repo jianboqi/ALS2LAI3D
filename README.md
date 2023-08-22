@@ -25,4 +25,6 @@ You can directly refer to the `als2less.py` within the code. A more easier way t
 D:\LESS\app\bin\python\python  D:\LESS\app\Python_script\ALS2LESS\als2less.py  -i  C:\Users\DELL\Desktop\ALS_sample.las  -o  C:\Users\DELL\Desktop  -sim_name  sim_proj01  -seg_method  watershed  -seg_param  4.5  -type  alphashape  -param  5  -include_understory  false  -pad_method  pulse_tracing  -pad_constant  0.8  -total_lai  3.0  -understory_height  auto  -leaf_angle_dist  Spherical  -leaf_op  leaf_op_name01  -leaf_as_facet  false  -single_leaf_area  0.01
 ```
 
+>Please note that if you do not use the python interpreter installed with LESS (e.g., D:\LESS\app\bin\python\python.exe), you will need to install sklearn, CSF, laspy for your own python.
+
 
